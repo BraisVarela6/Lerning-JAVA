@@ -35,10 +35,19 @@ public class Method {
 
     }
 
+    public static String myCustomMessage(String customName){
+        return "Hi " + customName + "! This is your custom message";
+    }
+
     public static void main(String[] args) {
         logic();
         int arithResult = arithmeticOperators();
         System.out.println("Arithmetic result: " + arithResult);
+        String name = "Brais";
+        String message = myCustomMessage(name);
+        System.out.println(message);
+        System.out.println(myCustomMessage("Nerea"));
+
     }
 }
 
