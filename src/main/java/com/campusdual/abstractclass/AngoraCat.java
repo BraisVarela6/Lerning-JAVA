@@ -1,6 +1,7 @@
 package com.campusdual.abstractclass;
 
 public class AngoraCat extends Cat{
+
     public AngoraCat(String animalName) {
         super(animalName);
     }
