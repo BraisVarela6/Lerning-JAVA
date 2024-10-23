@@ -53,9 +53,9 @@ public class CarBooking implements IBooking{
     public void cancelBook() {
         if (this.booked){
             this.booked = false;
-            System.out.println("Booking for " + this.licensePlate + " cancelled");
+            System.out.println("Booking for " + this.licensePlate + " cancelled.");
         } else {
-            System.out.println(this.licensePlate + " car is not rented");
+            System.out.println(this.licensePlate + " car is not rented.");
         }
     }
 
@@ -67,7 +67,7 @@ public class CarBooking implements IBooking{
         if (this.booked){
             System.out.println(this.licensePlate + " car booked for " + this.sdf.format(this.bookDate));
         } else {
-            System.out.println(this.licensePlate + " car is not rented");
+            System.out.println(this.licensePlate + " car is not rented.");
         }
     }
 }
