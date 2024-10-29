@@ -1,0 +1,11 @@
+Hola. Esto es como almaceno una cadena
+50
+89
+80
+15
+22
+18
+64
+48
+5
+74
