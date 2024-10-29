@@ -15,6 +15,6 @@ public class StackCollection {
         System.out.println("Removed instrument: " + removedItem);
 
         String peekedItem = instruments.peek();
-        System.out.println("Peeked instrument :" + peekedItem);
+        System.out.println("Peeked instrument: " + peekedItem);
     }
 }
